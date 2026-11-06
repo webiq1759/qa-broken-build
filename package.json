@@ -1,0 +1,9 @@
+{
+  "name": "qa-broken-build",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Simulating fatal build error during static compile' && exit 1",
+    "start": "node index.js"
+  }
+}
